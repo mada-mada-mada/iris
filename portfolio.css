@@ -1,0 +1,157 @@
+
+body {
+background-color: white;
+margin: 32px;
+}
+
+.intro {
+    background-color: #e7eff1;
+    padding: 32px;
+}
+
+h1 {
+    color: #1a1b1f;
+    font-family: 'Gentium Plus', serif;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 400;
+    margin: auto;
+}
+
+h2 {
+    color: #1a1b1f;
+    font-family: 'Gentium Plus', serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+
+h3 {
+    color: #1a1b1f;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color: #1a1b1f;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+
+}
+
+
+.subline {
+    color: gray;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+}
+ 
+#cool {
+    width: 10%;
+    top: 0px;
+}
+
+a {
+    cursor: pointer;
+    color: #5e96a0;
+    text-decoration: none;
+    transition: color .4s, opacity .4s, color .4s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1a1b1f;
+    
+
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.background-green {
+    background-color: #e7eff1;
+    color: #1a1b1f;
+}
+
+.main-green {
+    background-color: #5e96a0;
+    color: #1a1b1f;
+}
+
+.text-black {
+    color: white;
+    background-color: #1a1b1f;
+   
+}
+
+.color-label {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 700;
+}
+
+.color-label-dark {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.color-hex {
+    font-family: monospace;
+}
+.color-hex-dark {
+    font-family: monospace;
+    color: white;
+}
+
+
+
+.gentium-regular {
+    font-family: 'Gentium Plus', serif;
+    font-weight: 400;
+}
+
+.gentium-bold {
+    font-family: 'Gentium Plus', serif;
+    font-weight: 700;
+}
+
+.font {
+    display: inline-block;
+    text-align: left;
+    margin: 8px 32px 8px 0px;
+    min-height: 100px;
+    width: auto;
+}
+
+button {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #5e96a0;
+    border: 1px #5e96a0;
+    border-radius: 0;
+    padding: 16px 32px;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    transition: background-color .4s, opacity .4s, color .4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a1b1f;
+}
+
+button:active {
+    background-color: #43464d;
+}
